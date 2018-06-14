@@ -953,6 +953,12 @@ textarea {
   overflow: hidden;
   color: #fff; }
 
+.header--404 {
+  position: relative;
+  background: url("../images/404-bg-img.jpg");
+  /* fallback for old browsers */
+  background-size: cover; }
+
 .header__slice {
   height: 75%;
   width: 300%;
@@ -967,11 +973,11 @@ textarea {
 
 .header--index__title {
   font-size: 3rem;
-  line-height: 1rem; }
+  line-height: 1;
+  margin-bottom: -1.5rem; }
 
 .header--index__subtitle {
-  opacity: .5;
-  margin-top: -1.5rem; }
+  color: #aaa; }
 
 .header--about {
   color: #aaa; }
@@ -1003,7 +1009,8 @@ textarea {
   background-position: 90% 50%; }
 
 .header--contact__title {
-  line-height: 1; }
+  line-height: 1;
+  margin-bottom: -1.25rem; }
 
 .section--index {
   background: #fff; }
